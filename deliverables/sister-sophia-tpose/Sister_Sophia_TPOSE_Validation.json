@@ -1,0 +1,620 @@
+{
+  "source_file": "Sister_Sophia_DeepMotion_Ready.glb",
+  "output_file": "Sister_Sophia_DeepMotion_TPOSE.glb",
+  "source_sha256": "c2a8b7de2c8ffdf04d75afa46709ad4f75d0d4e4c4b0118ab40e39562dad1b5b",
+  "output_sha256": "f9fbd308d415b3cdee3e0a1e9336870788ce7da6f0275f78e0d5be2489add97b",
+  "diagnosis": "Source is A-posed, with downward upper arms and bent elbows. Original inverse bind matrices already agree with the A-pose; missing T-pose is not caused by a bind-matrix mismatch.",
+  "method": "Blender Python/mathutils: length-preserving hierarchical rotations, per-vertex weighted affine rest-pose baking, transformed morph positions and normal deltas, recomputed inverse bind matrices. Direct GLB serialization preserves all unrelated original data.",
+  "root_joint_count": 1,
+  "root_joint_name": "Armature",
+  "joint_count": 113,
+  "mesh_count": 8,
+  "material_count": 9,
+  "facial_blendshape_count": 67,
+  "facial_blendshape_names": [
+    "eyeBlinkRight",
+    "eyeBlinkLeft",
+    "mouthUpperUpRight",
+    "mouthUpperUpLeft",
+    "mouthFunnel",
+    "browInnerUp",
+    "blink",
+    "smile",
+    "jawOpen",
+    "browOuterUpRight",
+    "browOuterUpLeft",
+    "eyeLookDownRight",
+    "mouthRight",
+    "mouthLeft",
+    "mouthFrownRight",
+    "mouthFrownLeft",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthPucker",
+    "eyeLookDownLeft",
+    "mouthStretchRight",
+    "mouthStretchLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "jawRight",
+    "mouthClose",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeLookOutRight",
+    "eyeSquintLeft",
+    "browDownLeft",
+    "eyeLookInLeft",
+    "cheekSquintRight",
+    "eyeLookOutLeft",
+    "eyeLookInRight",
+    "cheekSquintLeft",
+    "noseSneerRight",
+    "noseSneerLeft",
+    "browDownRight",
+    "jawLeft",
+    "jawForward",
+    "cheekPuff",
+    "eyeWideRight",
+    "elf_ears",
+    "viseme_sil",
+    "viseme_PP",
+    "viseme_FF",
+    "viseme_TH",
+    "viseme_DD",
+    "viseme_kk",
+    "viseme_CH",
+    "viseme_SS",
+    "viseme_nn",
+    "viseme_RR",
+    "viseme_aa",
+    "viseme_E",
+    "viseme_I",
+    "viseme_O",
+    "viseme_U",
+    "mouthOpen",
+    "eyesClosed"
+  ],
+  "images_count": 0,
+  "textures_count": 0,
+  "materials_identical": true,
+  "indices_uvs_colors_and_skin_weights_byte_identical": true,
+  "original_binary_prefix_preserved": true,
+  "hierarchy_and_joint_indices_unchanged": true,
+  "original_inverse_bind_identity_max_error": 9.4141475929857e-06,
+  "export_inverse_bind_identity_max_error": 5.986201045971029e-08,
+  "export_rest_skin_deformation_max_error_m": 9.921447907679237e-08,
+  "morph_endpoint_rebind_max_error_m": 5.8688946369400696e-08,
+  "original_weight_sum_max_error": 1.3015232980251312e-07,
+  "anatomical_bone_length_max_change_m": 9.439439729863608e-09,
+  "arm_shoulder_height_max_error_m": 1.8115305477905963e-08,
+  "arm_depth_alignment_max_error_m": 1.0381206191553694e-08,
+  "before_pose_deviations": {
+    "left_upper_arm_deviation_degrees": 53.38503760990018,
+    "left_forearm_deviation_degrees": 44.266540484235705,
+    "left_wrist_deviation_degrees": 38.042849227267105,
+    "left_thigh_deviation_degrees": 5.413065870198756,
+    "left_shin_deviation_degrees": 5.6665285713486915,
+    "left_elbow_bend_degrees": 20.37545063469089,
+    "right_upper_arm_deviation_degrees": 55.49827674938462,
+    "right_forearm_deviation_degrees": 41.83712179310243,
+    "right_wrist_deviation_degrees": 44.53777370617057,
+    "right_thigh_deviation_degrees": 5.547323299147888,
+    "right_shin_deviation_degrees": 5.37190038095546,
+    "right_elbow_bend_degrees": 24.243735271374156
+  },
+  "export_pose_deviations": {
+    "left_upper_arm_deviation_degrees": 1.7075472925031877e-06,
+    "left_forearm_deviation_degrees": 1.4787793334710982e-06,
+    "left_wrist_deviation_degrees": 0.0,
+    "left_thigh_deviation_degrees": 0.0,
+    "left_shin_deviation_degrees": 8.537736462515939e-07,
+    "left_elbow_bend_degrees": 2.4148365394514667e-06,
+    "right_upper_arm_deviation_degrees": 2.091309789151873e-06,
+    "right_forearm_deviation_degrees": 1.9090959104164224e-06,
+    "right_wrist_deviation_degrees": 0.0,
+    "right_thigh_deviation_degrees": 1.2074182697257333e-06,
+    "right_shin_deviation_degrees": 8.537736462515939e-07,
+    "right_elbow_bend_degrees": 1.4787793334710982e-06,
+    "Hips_upright_deviation_degrees": 0.0,
+    "Spine_upright_deviation_degrees": 0.0,
+    "Spine1_upright_deviation_degrees": 0.0,
+    "Spine2_upright_deviation_degrees": 0.0
+  },
+  "primitives": [
+    {
+      "mesh": 0,
+      "primitive": 0,
+      "vertices": 6751,
+      "max_repose_displacement_m": 0.569377820576331,
+      "affine_min_determinant": 0.9223843926387353
+    },
+    {
+      "mesh": 1,
+      "primitive": 0,
+      "vertices": 299,
+      "max_repose_displacement_m": 0.004884097821940595,
+      "affine_min_determinant": 0.9198723397174333
+    },
+    {
+      "mesh": 2,
+      "primitive": 0,
+      "vertices": 2909,
+      "max_repose_displacement_m": 0.4232718477406687,
+      "affine_min_determinant": 0.7854850916386783
+    },
+    {
+      "mesh": 3,
+      "primitive": 0,
+      "vertices": 13736,
+      "max_repose_displacement_m": 0.010583128072863131,
+      "affine_min_determinant": 0.999999999999999
+    },
+    {
+      "mesh": 4,
+      "primitive": 0,
+      "vertices": 7514,
+      "max_repose_displacement_m": 0.01058312807286296,
+      "affine_min_determinant": 0.9999999999999996
+    },
+    {
+      "mesh": 5,
+      "primitive": 0,
+      "vertices": 430,
+      "max_repose_displacement_m": 0.010583128072863282,
+      "affine_min_determinant": 0.9999999999999991
+    },
+    {
+      "mesh": 6,
+      "primitive": 0,
+      "vertices": 306,
+      "max_repose_displacement_m": 0.010583128072862939,
+      "affine_min_determinant": 0.9999999999999996
+    },
+    {
+      "mesh": 6,
+      "primitive": 1,
+      "vertices": 1498,
+      "max_repose_displacement_m": 0.0105831280728631,
+      "affine_min_determinant": 0.9999999999999993
+    },
+    {
+      "mesh": 6,
+      "primitive": 2,
+      "vertices": 4848,
+      "max_repose_displacement_m": 0.010583128072863119,
+      "affine_min_determinant": 0.9958782257098946
+    },
+    {
+      "mesh": 6,
+      "primitive": 3,
+      "vertices": 1252,
+      "max_repose_displacement_m": 0.010583128072862944,
+      "affine_min_determinant": 0.9999999999999996
+    },
+    {
+      "mesh": 6,
+      "primitive": 4,
+      "vertices": 72,
+      "max_repose_displacement_m": 0.010583128072862939,
+      "affine_min_determinant": 0.9999999999999996
+    },
+    {
+      "mesh": 6,
+      "primitive": 5,
+      "vertices": 1204,
+      "max_repose_displacement_m": 0.010583128072863058,
+      "affine_min_determinant": 0.9999999999999999
+    },
+    {
+      "mesh": 7,
+      "primitive": 0,
+      "vertices": 1348,
+      "max_repose_displacement_m": 0.06833719228428789,
+      "affine_min_determinant": 0.9997711524776525
+    }
+  ],
+  "grounding_translation_m": 0.004987758706219234,
+  "deepmotion_import_tested": false,
+  "limitations": [
+    "No DeepMotion import performed; compatibility is unverified.",
+    "Source has no texture/image assets; original nine materials preserved exactly.",
+    "Original small left/right bone-length differences preserved rather than scaling anatomy to force mirror symmetry.",
+    "Skin weights and topology preserved; posed vertices necessarily move, and linear skinning introduces local stretching at shoulders and clothing folds. Per-primitive deformation metrics are included.",
+    "Natural neck-to-head offset is preserved with the original upright head orientation, rather than forcing the anatomical neck segment vertical and distorting the face.",
+    "Some morphs are already inactive/zero in the source: viseme_sil"
+  ],
+  "independent_geometry_validation": [
+    {
+      "mesh": 0,
+      "primitive": 0,
+      "vertex_count": 6751,
+      "triangle_count": 11900,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.6977838595215415,
+      "triangle_area_ratio_max": 2.2209826824636894,
+      "edge_length_ratio_p01": 0.9086195328691331,
+      "edge_length_ratio_p99": 1.1178129946755588,
+      "edge_length_ratio_max": 2.640930193611731,
+      "vertex_rebind_max_error_m": 1.6574084682474677e-07
+    },
+    {
+      "mesh": 1,
+      "primitive": 0,
+      "vertex_count": 299,
+      "triangle_count": 466,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.854489401754177,
+      "triangle_area_ratio_max": 1.1138270655618476,
+      "edge_length_ratio_p01": 0.9096775531694106,
+      "edge_length_ratio_p99": 1.0614546633453539,
+      "edge_length_ratio_max": 1.1028964740189737,
+      "vertex_rebind_max_error_m": 1.2075466626626508e-07
+    },
+    {
+      "mesh": 2,
+      "primitive": 0,
+      "vertex_count": 2909,
+      "triangle_count": 5214,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.7056898341007242,
+      "triangle_area_ratio_max": 4.9851313969955795,
+      "edge_length_ratio_p01": 0.8192738455437356,
+      "edge_length_ratio_p99": 3.2977312635652005,
+      "edge_length_ratio_max": 4.622939645153066,
+      "vertex_rebind_max_error_m": 1.364137031112378e-07
+    },
+    {
+      "mesh": 3,
+      "primitive": 0,
+      "vertex_count": 13736,
+      "triangle_count": 12896,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9999992760306602,
+      "triangle_area_ratio_max": 1.0000046150789699,
+      "edge_length_ratio_p01": 0.9999997018908007,
+      "edge_length_ratio_p99": 1.0000002988831334,
+      "edge_length_ratio_max": 1.0000036751303056,
+      "vertex_rebind_max_error_m": 9.774227893721843e-08
+    },
+    {
+      "mesh": 4,
+      "primitive": 0,
+      "vertex_count": 7514,
+      "triangle_count": 10232,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9999990920858667,
+      "triangle_area_ratio_max": 1.0000008661441977,
+      "edge_length_ratio_p01": 0.9999997540587853,
+      "edge_length_ratio_p99": 1.0000002522699647,
+      "edge_length_ratio_max": 1.0000006503824446,
+      "vertex_rebind_max_error_m": 9.577329335153095e-08
+    },
+    {
+      "mesh": 5,
+      "primitive": 0,
+      "vertex_count": 430,
+      "triangle_count": 748,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9999997575238424,
+      "triangle_area_ratio_max": 1.0000007976231053,
+      "edge_length_ratio_p01": 0.9999998624568179,
+      "edge_length_ratio_p99": 1.0000001367205777,
+      "edge_length_ratio_max": 1.0000007546779248,
+      "vertex_rebind_max_error_m": 9.81604014044235e-08
+    },
+    {
+      "mesh": 6,
+      "primitive": 0,
+      "vertex_count": 306,
+      "triangle_count": 448,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9999990893683496,
+      "triangle_area_ratio_max": 1.000001736572496,
+      "edge_length_ratio_p01": 0.9999993468361684,
+      "edge_length_ratio_p99": 1.0000007846784693,
+      "edge_length_ratio_max": 1.000001248452609,
+      "vertex_rebind_max_error_m": 8.640751181232531e-08
+    },
+    {
+      "mesh": 6,
+      "primitive": 1,
+      "vertex_count": 1498,
+      "triangle_count": 2780,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9999958382982828,
+      "triangle_area_ratio_max": 1.0000043728022474,
+      "edge_length_ratio_p01": 0.9999986745006829,
+      "edge_length_ratio_p99": 1.0000014712745242,
+      "edge_length_ratio_max": 1.0000029035897566,
+      "vertex_rebind_max_error_m": 8.275736651519594e-08
+    },
+    {
+      "mesh": 6,
+      "primitive": 2,
+      "vertex_count": 4848,
+      "triangle_count": 9356,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9939503861097488,
+      "triangle_area_ratio_max": 1.0040507089282604,
+      "edge_length_ratio_p01": 0.9999984719601064,
+      "edge_length_ratio_p99": 1.0000025564271735,
+      "edge_length_ratio_max": 1.0046160482086661,
+      "vertex_rebind_max_error_m": 1.1270736988144847e-07
+    },
+    {
+      "mesh": 6,
+      "primitive": 3,
+      "vertex_count": 1252,
+      "triangle_count": 2400,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9999981792183833,
+      "triangle_area_ratio_max": 1.0000017735225957,
+      "edge_length_ratio_p01": 0.9999983329341938,
+      "edge_length_ratio_p99": 1.000001450139992,
+      "edge_length_ratio_max": 1.0000017179260277,
+      "vertex_rebind_max_error_m": 8.523469796628547e-08
+    },
+    {
+      "mesh": 6,
+      "primitive": 4,
+      "vertex_count": 72,
+      "triangle_count": 88,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 1.0,
+      "triangle_area_ratio_max": 1.0000009409957078,
+      "edge_length_ratio_p01": 1.0,
+      "edge_length_ratio_p99": 1.0000009396272591,
+      "edge_length_ratio_max": 1.0000009981067564,
+      "vertex_rebind_max_error_m": 8.540322382621923e-08
+    },
+    {
+      "mesh": 6,
+      "primitive": 5,
+      "vertex_count": 1204,
+      "triangle_count": 2304,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9999981421719176,
+      "triangle_area_ratio_max": 1.0000018145267586,
+      "edge_length_ratio_p01": 0.9999982969577303,
+      "edge_length_ratio_p99": 1.0000014252609388,
+      "edge_length_ratio_max": 1.0000017501111766,
+      "vertex_rebind_max_error_m": 8.587883759680892e-08
+    },
+    {
+      "mesh": 7,
+      "primitive": 0,
+      "vertex_count": 1348,
+      "triangle_count": 2292,
+      "new_degenerate_triangles": 0,
+      "triangle_area_ratio_min": 0.9962223845393395,
+      "triangle_area_ratio_max": 1.0036507318888659,
+      "edge_length_ratio_p01": 0.9993228506098921,
+      "edge_length_ratio_p99": 1.0001640165323726,
+      "edge_length_ratio_max": 1.001990727156526,
+      "vertex_rebind_max_error_m": 1.27273947991835e-07
+    }
+  ],
+  "all_morph_delta_rebind_max_error_m": 7.213203832845405e-09,
+  "morph_position_targets_checked_across_primitives": 402,
+  "source_inactive_morph_names": [
+    "viseme_sil"
+  ],
+  "feet": [
+    {
+      "side": "left",
+      "sole_plane_tilt_degrees": 7.480034270104662e-05,
+      "shoe_forward_deviation_degrees": 0.11046881508453246,
+      "lowest_vertex_height_m": 3.469446951953614e-18
+    },
+    {
+      "side": "right",
+      "sole_plane_tilt_degrees": 7.475387463299492e-05,
+      "shoe_forward_deviation_degrees": 0.11044637774567877,
+      "lowest_vertex_height_m": 0.00011230530071770772
+    }
+  ],
+  "khronos_validator": {
+    "errors": 0,
+    "warnings": 8,
+    "infos": 849,
+    "warnings_identical_to_input": true,
+    "warning_codes": [
+      "NODE_SKINNED_MESH_NON_ROOT"
+    ],
+    "info_note": "Additional UNUSED_OBJECT notices refer to retained original accessor data, superseded by reposed accessors."
+  },
+  "facial_rigid_preservation": [
+    {
+      "primitive": 0,
+      "max_rigid_head_difference_m": 1.18363000405923e-07,
+      "face_above_y_1_55m_max_difference_m": 1.18363000405923e-07
+    },
+    {
+      "primitive": 1,
+      "max_rigid_head_difference_m": 1.0932773159237008e-07,
+      "face_above_y_1_55m_max_difference_m": 1.0932773159237008e-07
+    },
+    {
+      "primitive": 2,
+      "max_rigid_head_difference_m": 0.0004612399851740486,
+      "face_above_y_1_55m_max_difference_m": 0.0004612399851740486
+    },
+    {
+      "primitive": 3,
+      "max_rigid_head_difference_m": 1.1735263076120339e-07,
+      "face_above_y_1_55m_max_difference_m": 1.1735263076120339e-07
+    },
+    {
+      "primitive": 4,
+      "max_rigid_head_difference_m": 1.1704200942016256e-07,
+      "face_above_y_1_55m_max_difference_m": 1.1704200942016256e-07
+    },
+    {
+      "primitive": 5,
+      "max_rigid_head_difference_m": 1.1730202161167514e-07,
+      "face_above_y_1_55m_max_difference_m": 1.1730202161167514e-07
+    }
+  ],
+  "blender_runtime_validation": {
+    "blender_version": "4.3.2",
+    "export_import_success": true,
+    "imported_skeleton_bone_count": 113,
+    "root_bones": [
+      "Armature"
+    ],
+    "all_eight_character_objects_finite": true,
+    "facial_keys_excluding_basis": 67,
+    "active_facial_shapes": 66,
+    "neutral_inactive_shapes": [
+      "viseme_sil"
+    ],
+    "each_shape_max_displacement_m": {
+      "eyeBlinkRight": 0.0088431390243064,
+      "eyeBlinkLeft": 0.009503045569113001,
+      "mouthUpperUpRight": 0.00822734832763677,
+      "mouthUpperUpLeft": 0.007767200469970759,
+      "mouthFunnel": 0.008425531019758905,
+      "browInnerUp": 0.006498297968943522,
+      "blink": 0.008140644657091339,
+      "smile": 0.006428308851493299,
+      "jawOpen": 0.01795888640385128,
+      "browOuterUpRight": 0.0072422027587890625,
+      "browOuterUpLeft": 0.007514357566833727,
+      "eyeLookDownRight": 0.002413153648376465,
+      "mouthRight": 0.01210184814921593,
+      "mouthLeft": 0.012851066171404779,
+      "mouthFrownRight": 0.003581211892769387,
+      "mouthFrownLeft": 0.005992157831825334,
+      "mouthShrugLower": 0.002917205155692545,
+      "mouthShrugUpper": 0.0014730691909790093,
+      "mouthSmileLeft": 0.005691314871246017,
+      "mouthSmileRight": 0.005709623750459505,
+      "mouthDimpleLeft": 0.0041432328761370875,
+      "mouthDimpleRight": 0.004443559770320754,
+      "mouthRollLower": 0.009881482586692417,
+      "mouthRollUpper": 0.013120196571767596,
+      "mouthPucker": 0.00626020438541793,
+      "eyeLookDownLeft": 0.002274036407470703,
+      "mouthStretchRight": 0.005543198801177953,
+      "mouthStretchLeft": 0.00490342075898649,
+      "eyeSquintRight": 0.001649022102355957,
+      "eyeWideLeft": 0.0019228458404541016,
+      "jawRight": 0.002166509315959762,
+      "mouthClose": 0.015918493270874065,
+      "eyeLookUpLeft": 0.0021805763244628906,
+      "eyeLookUpRight": 0.00185394287109375,
+      "eyeLookOutRight": 0.0012207701802253723,
+      "eyeSquintLeft": 0.0016955137252807617,
+      "browDownLeft": 0.007114291191101135,
+      "eyeLookInLeft": 0.0018976181745529175,
+      "cheekSquintRight": 0.0009390115737915039,
+      "eyeLookOutLeft": 0.0015250854194164276,
+      "eyeLookInRight": 0.0015956684947013855,
+      "cheekSquintLeft": 0.0014083385467529297,
+      "noseSneerRight": 0.003264069557190074,
+      "noseSneerLeft": 0.004749178886413665,
+      "browDownRight": 0.008559823036193898,
+      "jawLeft": 0.0018174053881126074,
+      "jawForward": 0.005319789052009626,
+      "cheekPuff": 0.011019436821112323,
+      "eyeWideRight": 0.0010536909103393555,
+      "elf_ears": 0.05606109374206914,
+      "viseme_sil": 0.0,
+      "viseme_PP": 0.006367444992065445,
+      "viseme_FF": 0.0026937733579209277,
+      "viseme_TH": 0.004775524139404309,
+      "viseme_DD": 0.0031837224960327227,
+      "viseme_kk": 0.006285550634762532,
+      "viseme_CH": 0.0035917772768449784,
+      "viseme_SS": 0.0026937733579209277,
+      "viseme_nn": 0.003979563713073741,
+      "viseme_RR": 0.0018780539222633115,
+      "viseme_aa": 0.012571220485314954,
+      "viseme_E": 0.0022838018436251695,
+      "viseme_I": 0.003425821822795659,
+      "viseme_O": 0.0033701885226595633,
+      "viseme_U": 0.005055342497099378,
+      "mouthOpen": 0.01795888640385128,
+      "eyesClosed": 0.004751417390666548
+    },
+    "skinning_test": {
+      "bone": "LeftArm",
+      "local_x_rotation_degrees": 15,
+      "body_max_displacement_m": 0.04522182796339196,
+      "body_affected_vertices": 2050,
+      "reset_max_vertex_error_m": 0.0
+    },
+    "note": "Tests modify imported Blender scene in memory only; GLB is never re-exported."
+  },
+  "clothing_repose_note": {
+    "max_edge_stretch_ratio": 4.622939645153066,
+    "p99_edge_stretch_ratio": 3.2977312635652005,
+    "most_stretched_edge_original_length_m": 0.011250314631106945,
+    "most_stretched_edge_final_length_m": 0.05200952552858989,
+    "source_location_m": [
+      0.14490564167499542,
+      1.3635315299034119,
+      -0.004970473935827613
+    ],
+    "note": "Original topology and weights retained. Raising the arms necessarily stretches original garment folds; no cloth simulation or remeshing was performed."
+  },
+  "head_world_orientation_preserved_max_matrix_difference": 1.447061561160177e-07,
+  "neck_to_head_offset_note": "Original anatomical neck offset and upright head orientation preserved together; the neck-to-head joint line is naturally inclined, while torso spine segments are vertical.",
+  "render_validation": {
+    "engine": "Blender Cycles CPU",
+    "samples": 96,
+    "resolution": [
+      1000,
+      1100
+    ],
+    "identical_cameras_lighting_materials_before_after": true,
+    "presentation_only_floor_and_lights_not_exported": true,
+    "rendered_source_sha256": "c2a8b7de2c8ffdf04d75afa46709ad4f75d0d4e4c4b0118ab40e39562dad1b5b",
+    "rendered_output_sha256": "f9fbd308d415b3cdee3e0a1e9336870788ce7da6f0275f78e0d5be2489add97b",
+    "screenshots": [
+      {
+        "file": "before_front.png",
+        "sha256": "67c447b6c0580f9915d1aa93ff36b82c0e02b6ac1747dfbe1ca38a0af575a128",
+        "pose": "before",
+        "view": "front"
+      },
+      {
+        "file": "after_front.png",
+        "sha256": "379266f0d7cf0c2916de1759e911a90a956d9fd052408290b70d31b843e19105",
+        "pose": "after",
+        "view": "front"
+      },
+      {
+        "file": "before_side.png",
+        "sha256": "f154a9329691334fd2466193eb12714eaaa733e43bce60512644ac1936e443d8",
+        "pose": "before",
+        "view": "side"
+      },
+      {
+        "file": "after_side.png",
+        "sha256": "2f0f578d2c71f4015ac205a82caf6f91a609c05db6c64f1ff151ea157de002ed",
+        "pose": "after",
+        "view": "side"
+      },
+      {
+        "file": "before_three_quarter.png",
+        "sha256": "81e459c80f49f3f30dbfec3ba23c1223d64a9661ff59af46c2fb007233410886",
+        "pose": "before",
+        "view": "three_quarter"
+      },
+      {
+        "file": "after_three_quarter.png",
+        "sha256": "bdff79ef6ed78a10d616b25f9e59fbce7c32107c6b2c8a04efffe0c29d6722ae",
+        "pose": "after",
+        "view": "three_quarter"
+      }
+    ],
+    "visual_review": "Front, side and three-quarter images reviewed. Limbs form the intended T, face/hair/hat and footwear retain their design. Armpit fabric folds stretch when the arms are raised; no missing character parts or explosive skinning observed."
+  }
+}
